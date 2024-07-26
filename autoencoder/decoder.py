@@ -1,6 +1,6 @@
 import torch
 from torch import nn
-from blocks import ResidualBlock, SelfAttentionBlock
+from autoencoder.blocks import ResidualBlock, SelfAttentionBlock
 
 class Decoder(nn.Sequential):
 	

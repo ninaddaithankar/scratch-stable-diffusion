@@ -64,6 +64,3 @@ class SelfAttentionBlock(nn.Module):
 
 		return x
 
-
-
-
